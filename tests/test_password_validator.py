@@ -35,10 +35,10 @@ def test_type_error():
         is_valid_length(12345)
 
 
-# def test_strong_password():
-#     password = "Password1!"
-#     result = is_strong_password(password)
-#     assert result == False
+def test_strong_password():
+    password = "Password1!"
+    result = is_strong_password(password)
+    assert result == False
 
 
 def test_password_strength_medium():
