@@ -38,7 +38,7 @@ def test_type_error():
 def test_strong_password():
     password = "Password1!"
     result = is_strong_password(password)
-    assert result == False
+    assert result == True
 
 
 def test_password_strength_medium():
